@@ -4,13 +4,13 @@ from tkinter import ttk, messagebox, filedialog
 import os
 from PIL import Image, ImageTk
 
-# Certifique-se de ter o Pillow instalado: pip install Pillow
+
 
 class FortuneBagEditor:
     def __init__(self, root):
         self.root = root
         self.root.title("Fortune Bag Editor Pro")
-        self.root.geometry("1100x750") # Aumentei um pouco a altura da janela
+        self.root.geometry("1100x750") 
 
         self.items = []
         self.item_database = {} 
@@ -25,10 +25,10 @@ class FortuneBagEditor:
 
         # --- AJUSTE DE ESPAÇAMENTO (ESTILO) ---
         self.style = ttk.Style()
-        self.style.theme_use('default') # Garante que o estilo seja aplicado corretamente
+        self.style.theme_use('default') 
         self.style.configure("Treeview", 
-                             rowheight=45,      # Altura da linha aumentada para não sobrepor o ícone
-                             font=('Segoe UI', 10)) # Fonte um pouco mais moderna
+                             rowheight=45,      
+                             font=('Segoe UI', 10)) 
         self.style.configure("Treeview.Heading", font=('Segoe UI', 10, 'bold'))
 
         self.build_ui()
@@ -275,4 +275,5 @@ class FortuneBagEditor:
 if __name__ == "__main__":
     root = tk.Tk()
     app = FortuneBagEditor(root)
+
     root.mainloop()
