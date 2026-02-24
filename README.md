@@ -13,3 +13,6 @@ Esta ferramenta foi desenvolvida para facilitar a gestão de Fortune Bags Para G
 
 **📦 Instalação:**
 Apenas baixe o `Fortune_bag.exe` abaixo e execute como administrador.
+
+
+# [➔ CLIQUE AQUI PARA BAIXAR O EDITOR](https://drive.google.com/file/d/1qi2HRhbXmH7ZoaAaXFj-XDEP2q4H-Uxs/view?usp=drive_link)
