@@ -1,6 +1,7 @@
 # Fortune-Bag-Editor
 "Ferramenta otimizada para edição em massa de itens de Fortune Bag no PostgreSQL. Suporte a leitura de ícones do client e intervalos de IDs."
 
+# Certifique-se de ter o Pillow instalado: pip install Pillow
 
 ### ✅ Versão Inicial v1.0.0
 Esta ferramenta foi desenvolvida para facilitar a gestão de Fortune Bags Para Gestão de banco do grandfantasia, eliminando a necessidade de queries SQL manuais para cada item.
